@@ -9,7 +9,7 @@ async function query() {
 
         console.log("Starting the API request...");
         const response = await fetch(
-            "https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
+            API KEY
             {
                 headers: {
                     Authorization: `Bearer ${token}`,
